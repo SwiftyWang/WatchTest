@@ -24,8 +24,6 @@ public class MainActivity extends WearableActivity implements MenuItem.OnMenuIte
 
         mTextView = (TextView) findViewById(R.id.text);
 
-        // Enables Always-on
-        setAmbientEnabled();
         // Top navigation drawer
         mWearableNavigationDrawer = (WearableNavigationDrawerView) findViewById(R.id.top_navigation_drawer);
         mWearableNavigationDrawer.setAdapter(new YourImplementationNavigationAdapter(this));
